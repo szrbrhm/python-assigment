@@ -1,0 +1,7 @@
+age = input('75 yaşından büyük sigara bağımlısı mısınız?')
+chronic = input("Kronik rahatsızlığınız var mı?")
+immune = input("Bağışıklık sisteminiz çok mu zayıf?")
+if age and chronic or immune == True:
+    print("Riskli Gruptasınız")
+else:
+  print('Riskli grupta değilsiniz')
